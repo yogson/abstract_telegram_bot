@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "abstract-telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["yogson <yogson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "abstract_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.6"
+openai = "^1.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

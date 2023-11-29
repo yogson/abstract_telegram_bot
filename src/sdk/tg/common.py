@@ -6,14 +6,14 @@ from telegram import Update
 
 
 class Lang(Enum):
-    rus = "rus"
-    eng = "eng"
+    rus = "ru"
+    eng = "en"
 
 
 @dataclass
 class BilingualString:
-    eng: str
-    rus: str
+    en: str
+    ru: str
 
 
 @dataclass

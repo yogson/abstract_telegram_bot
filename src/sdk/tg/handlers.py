@@ -5,7 +5,6 @@ from telegram.ext import ContextTypes
 
 
 class HandlersChain:
-
     def __init__(self, *args: Callable[[Update, ContextTypes.DEFAULT_TYPE], Coroutine]):
         self.handlers = args
 

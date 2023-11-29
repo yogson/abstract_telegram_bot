@@ -5,7 +5,7 @@ from sdk.tg.bot import Bot
 from sdk.tg.common import Command, BilingualString, Lang
 from sdk.tg.keyboard import keyboard_handler
 
-Bot.api_token = "6907111185:AAFW1N-aX4APTO98aOZEdy2HNjzgyXyovz4"
+Bot.api_token = ""
 bot = Bot()
 
 buttons = [

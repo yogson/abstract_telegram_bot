@@ -1,11 +1,11 @@
-from functools import partial
+from os import environ
 
 from example.handlers.echo_handler import kek
 from sdk.tg.bot import Bot
 from sdk.tg.common import Command, BilingualString, Lang
 from sdk.tg.keyboard import keyboard_handler
 
-Bot.api_token = ""
+Bot.api_token = environ.get("API_TOKEN")
 bot = Bot()
 
 buttons = [
